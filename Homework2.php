@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: vadim
@@ -6,25 +7,29 @@
  * Time: 19:04
  * Homework2
  */
-class number{
+class number
+{
     public $i = 0;
     public $o = 0;
     public $p = 0;
+
     function create_number()
     {
-        $this->i = rand (1,8);
+        $this->i = rand(1, 8);
     }
+
     function finding()
     {
         //echo $this->i;
-        $this->o=$this->i%2;
+        $this->o = $this->i % 2;
         //echo $this->o;
-        if($this->o==0){
-            echo $this->i.'- парное число';
+        if ($this->o == 0) {
+            echo $this->i . '- парное число';
         } else {
-            echo $this->i.'- непарное число';
+            echo $this->i . '- непарное число';
         }
     }
+
     function finding_number()
     {
         switch ($this->i) {
@@ -58,6 +63,7 @@ class number{
         }
     }
 }
+
 $number = new number();
 $number->create_number();
 $number->finding();
