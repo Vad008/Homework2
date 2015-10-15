@@ -25,7 +25,40 @@ class number{
             echo $this->i.'- непарное число';
         }
     }
+    function finding_number()
+    {
+        switch ($this->i) {
+            case 0:
+                echo ", равно 0";
+                break;
+            case 1:
+                echo ", равно 1";
+                break;
+            case 2:
+                echo ", равно 2";
+                break;
+            case 3:
+                echo ", равно 3";
+                break;
+            case 4:
+                echo ", равно 4";
+                break;
+            case 5:
+                echo ", равно 5";
+                break;
+            case 6:
+                echo ", равно 6";
+                break;
+            case 7:
+                echo ", равно 7";
+                break;
+            case 8:
+                echo ", равно 8";
+                break;
+        }
+    }
 }
 $number = new number();
 $number->create_number();
 $number->finding();
+$number->finding_number();
