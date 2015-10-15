@@ -9,17 +9,20 @@
 class number{
     public $i = 0;
     public $o = 0;
+    public $p = 0;
     function create_number()
     {
         $this->i = rand (1,8);
     }
     function finding()
     {
-        echo $this->i;
+        //echo $this->i;
         $this->o=$this->i%2;
-        echo $this->o;
+        //echo $this->o;
         if($this->o==0){
-
+            echo $this->i.'- парное число';
+        } else {
+            echo $this->i.'- непарное число';
         }
     }
 }
