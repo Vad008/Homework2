@@ -1,0 +1,11 @@
+{
+	"require": {
+		"somevendor/somelibrary": "1.2.3"
+	},
+	"authors": [
+        {
+            "name": "Moskalov Vadim",
+            "email": "Vad008@ukr.net"
+        }
+    ],
+}
