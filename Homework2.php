@@ -7,6 +7,12 @@
  * Time: 19:04
  * Homework2
  */
+require 'vendor/autoload.php';
+
+use Carbon\Carbon;
+
+printf("Cейчас: %s", Carbon::now());
+
 class number
 {
     public $i = 0;
@@ -24,8 +30,10 @@ class number
         $this->o = $this->i % 2;
         //echo $this->o;
         if ($this->o == 0) {
+            echo '<br>';
             echo $this->i . '- парное число';
         } else {
+            echo '<br>';
             echo $this->i . '- непарное число';
         }
     }

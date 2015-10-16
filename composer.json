@@ -2,10 +2,13 @@
 	"require": {
 		"somevendor/somelibrary": "1.2.3"
 	},
+   	 "require": {
+       		 "nesbot/carbon": "^1.20"
+    	},
 	"authors": [
         {
             "name": "Moskalov Vadim",
             "email": "Vad008@ukr.net"
         }
-    ],
+    ]
 }
